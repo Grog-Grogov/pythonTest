@@ -1,1 +1,2 @@
-print('Рение')
+print('Рение')+
+khkjhkj
