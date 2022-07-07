@@ -34,4 +34,3 @@ print(max(my_dict1))         #Выводит MAX ключ
 def max_vol(a):
     print(max(my_dict.values()))
 max_vol(my_dict)
-
