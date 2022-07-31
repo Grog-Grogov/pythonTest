@@ -29,6 +29,7 @@ def benchmark(func):
         print(func.__name__, time.clock() - t)
         return res
     return wrapper
+
 print("Умножаем на два - [3, 7, 5, 2 , (-3), 3]")
 lis = [3, 7, 5, 2 , (-3), 3]
 print(list(map(lambda x: x * 2, lis)))
@@ -37,7 +38,7 @@ print("Фильтруем только чётные числа из списка
 l1 = [-2, -1, 1, 2, 3, 34, 5, 66, 101 ,88 ,124]
 print(list(filter(lambda x: not x % 2 , l1)))
 print("Фильтруем  только не чётные числа из списка")
-print(list(filter(lambda x:  x % 2 , l1)))
+print(list(filter(lambda x:  x % 2, l1)))
 
 
 
