@@ -1,3 +1,4 @@
+
 import  time
 
 def my_deco(sam_func):
@@ -11,9 +12,11 @@ def my_deco(sam_func):
         return sam_func
     return wrapper
 
+
 @my_deco
 def list_prin(a, b):
     print('--sum---', a + b)
+
 
 @my_deco
 def func_2(a,b):
@@ -21,12 +24,12 @@ def func_2(a,b):
 
 @my_deco
 def func_3(a):
-    print('----', [4, 5, 6, 7, 8])
+    print('----', [33, 34, 56, 334, 67])
 
 
 
 list_prin(4, 6)
-func_2(4, 8)
+func_2(45, 675)
 func_3(2)
 
 
