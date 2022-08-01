@@ -1,4 +1,3 @@
-
 def my_func1(a):
     print(a)
     return a+1
@@ -49,10 +48,3 @@ print(a3, 'третий год')
 a4 = ((a3 * proc) + a3)
 print(a4, 'четвертый год')
 
-print('введите суммы, ставку и колличество лет')
-s = int(input())  #Сумма вклада
-p = float(input())  #Процентная ставка
-n = int(input())    #Колличество месяцев
-for i in range(n):
-   asd = s * (1 + p/100)**i
-   print(i + 1, asd)
