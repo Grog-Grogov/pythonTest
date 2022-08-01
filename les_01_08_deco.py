@@ -17,6 +17,7 @@ def my_deco(sam_func):
 def list_prin(a, b):
     print('--sum---', a + b)
 
+
 @my_deco
 def func_2(a,b):
     print('------------', a + b)

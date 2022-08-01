@@ -13,13 +13,14 @@ def my_func_1(a):
     print(a)
 a_1 = my_func_1(asd)
 
+
 def my_func_2(a=1):
     print('Функция c 1 необязательным ',a)
 asd_2 = my_func_2()
 print(asd_2)
 
 def my_func_3(*args):
-    print('c переменным количеством позиционных аргументо',args)
+    print('c переменным количеством позиционных аргументо', args)
 my_func_3(2, 4, 'oops')
 #print(my_func_3())
 

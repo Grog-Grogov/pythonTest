@@ -11,6 +11,7 @@ def my_deco(sam_func):
         return sam_func
     return wrapper
 
+
 @my_deco
 def list_prin(a, b):
     print('--sum---', a + b)
