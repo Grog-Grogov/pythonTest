@@ -1,11 +1,11 @@
 print('Введите колличество потраченного ХВ')
 a = float(input())
-h = 50.86
+h = 52.86
 print('Введите колличество потраченного ГВ')
-g = 50.86
-water_go = 55.06
+g = 52.86
+water_go = 56.93
 b = float(input())
-water_g = 55.06
+water_g = 56.93
 water_power = 15.6
 water_Cold = h * a
 water_gorach = g * b

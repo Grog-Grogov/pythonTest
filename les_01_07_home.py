@@ -1,4 +1,5 @@
 
+
 def my_fun(a):
     l1 = []
     for i in a:
@@ -66,7 +67,7 @@ def my_fun_123(x, y):
             if l == x[i]:
                 x.remove(l)
         i = i + 1
-    print(x)
+    print('работает while  ', x)
     print("=====================")
 
 my_fun_123(a, b)

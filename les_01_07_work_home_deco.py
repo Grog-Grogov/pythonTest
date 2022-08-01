@@ -1,5 +1,6 @@
 import  time
 
+
 def my_deco(sam_func):
     def wrapper(*args, **кwargs):
         t = time.time()
