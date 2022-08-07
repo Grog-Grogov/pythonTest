@@ -20,7 +20,6 @@ for i in list_4:
 list_3 = [x *2 for x in (list_1)]
 list_4 = (x *2 for x in (list_3))
 
-
 try:
     print(next(list_4))
     raise Exception
@@ -61,11 +60,3 @@ gen_0 = (1, -8, -8, 8, 0, 86)
 gen_asd = (x * 0 for x in gen_0 if x >= 0)
 for i in gen_asd:
   print('зануляем положительные числа', i)
-
-
-
-
-
-
-
-
